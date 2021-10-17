@@ -1,4 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://KoPrecel.github.io/'
+title = 'Min's Learning Den'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
 theme = "PaperMod"
+paginate = 5000 #frontpage pagination
