@@ -6,7 +6,6 @@ paginate = 5000 # frontpage pagination
 copyright = "Copyright 2022 © Min Dye. All rights reserved."
 enableEmoji = true # https://www.webfx.com/tools/emoji-cheat-sheet/
 googleAnalytics = "G-SCM5JE3TQ5"
-publishDir = "docs"
 
 [params]
     env = "production"
