@@ -1,5 +1,13 @@
 baseURL = 'https://KoPrecel.github.io/'
-title = 'Min's Learning Den'
+title = "Min's Learning Den"
 languageCode = 'en-us'
 theme = "PaperMod"
-paginate = 5000 #frontpage pagination
+paginate = 5000 # frontpage pagination
+copyright = "Copyright 2022 © Min Dye. All rights reserved."
+enableEmoji = true # https://www.webfx.com/tools/emoji-cheat-sheet/
+googleAnalytics = "G-SCM5JE3TQ5"
+
+[params]
+    SEOTitle = "Min Dye Blog"
+    keyword = "Min, Dye, Software, Python"
+    sidebar_about_description = "test sidebar description"
