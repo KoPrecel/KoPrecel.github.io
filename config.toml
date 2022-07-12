@@ -1,4 +1,4 @@
-baseURL = 'https://KoPrecel.github.io/'
+baseURL = 'https://koprecel.github.io/'
 title = "Min's Learning Den"
 languageCode = 'en-us'
 theme = "PaperMod"
