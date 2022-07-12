@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Min&#39;s Learning Den</title>
+    <link>https://KoPrecel.github.io/</link>
+    <description>Recent content on Min&#39;s Learning Den</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2022 © Min Dye. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 12 Jul 2022 18:38:07 -0400</lastBuildDate><atom:link href="https://KoPrecel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testpost</title>
+      <link>https://KoPrecel.github.io/post/testpost/</link>
+      <pubDate>Tue, 12 Jul 2022 18:38:07 -0400</pubDate>
+      
+      <guid>https://KoPrecel.github.io/post/testpost/</guid>
+      <description>#test post Hello World!</description>
+    </item>
+    
+  </channel>
+</rss>
