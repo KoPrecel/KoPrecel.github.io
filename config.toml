@@ -12,3 +12,6 @@ googleAnalytics = "G-SCM5JE3TQ5"
     SEOTitle = "Min Dye Blog"
     keyword = "Min, Dye, Software, Python"
     sidebar_about_description = "test sidebar description"
+
+[markup.goldmark.renderer]
+    unsafe = true
