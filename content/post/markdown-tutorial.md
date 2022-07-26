@@ -55,26 +55,49 @@ You can italicize a text by wrapping it with either * or _ around the text. Here
 
 Some Markdown applications don't handle underscores the same way, so it is the best to use asterisks for bold and italic.
 
+## Code
+
+You can denote a text as code by wrapping it with \` around the text. If the text contains \` within, you can use `` instead to denote the text as code. Here is an example:
+
+| Markdown                     | Output                  |
+| ---------------------------- | ----------------------- |
+| \`print("Hello World!")\`    | `print("Hello World!")` |
+| \`\`denote code with \`!\`\` | ``denote code with `!`` |
+
+## Link
+
+You can hyperlink a text by wrapping the text in square brackets followed by the link wrapped in parentheses. Here is an example:
+
+| Markdown                                           | Output                                            |
+| -------------------------------------------------- | ------------------------------------------------- |
+| \[Min's Learning Den](https://koprecel.github.io/) | [Min's Learning Den](https://koprecel.github.io/) |
+
 ---
 
 # Blockquotes
 
 Did you notice how the hint looks different than regular paragraph in the previous section? It's called a blockquote and it's created by adding a \> at the beginning of a text.
 
+**Markdown:**
 
 `> Just like this!`
+
+**Rendition:**
+
 > Just like this!
 
 ## Multiline Blockquotes
 
 You can also use blockquote with multiple lines by adding \> on the blank lines.
 
+**Markdown:**
 ```markdown
 > Blockquotes are
 >
 > really cool!
 ```
 
+**Rendition:**
 > Blockquotes are
 >
 > really cool!
@@ -83,6 +106,7 @@ You can also use blockquote with multiple lines by adding \> on the blank lines.
 
 You can also nest blockquotes by adding another \>.
 
+**Markdown:**
 ```markdown
 > blockquote level 1
 > 
@@ -91,8 +115,81 @@ You can also nest blockquotes by adding another \>.
 > back to level 1!
 ```
 
+**Rendition:**
 > blockquote level 1
 > 
 >> blockquote level 2
 >
 > back to level 1!
+
+---
+
+# Lists
+
+## Ordered List
+
+You can make an ordered list by adding a number and a period at the beginning of the line. You can also nest another list by indenting!
+
+**Markdown:**
+```markdown
+1. one step to the left
+2. one step to the back
+3. one hop
+4. stomp
+    1. right foot
+    2. left foot
+5. cha cha real smooth
+```
+
+**Rendition:**
+1. one step to the left
+2. one step to the back
+3. one hop
+4. stomp
+    1. right foot
+    2. left foot
+5. cha cha real smooth
+
+## Unordered List
+
+You can make an unordered list by adding one of the following symbols to the beginning of the line: -, *, +
+
+**Markdown:**
+```markdown
+* apple
+- banana
++ peach
+```
+
+**Rendition:**
+* apple
+- banana
++ peach
+
+---
+
+# Fenced Code Block
+
+When you want to have more than one line of text as code, you can use fenced code block by starting a paragraph with ```.
+
+You can also denote which language you are using next to the ``` to highlight the syntax accordingly.
+
+**Markdown:**
+~~~markdown
+```py
+if money >= tuition:
+    student.attend = true
+else:
+    student.attend = false
+    student.work()
+```
+~~~
+
+**Rendition:**
+```py
+if money >= tuition:
+    student.attend = true
+else:
+    student.attend = false
+    student.work()
+```
