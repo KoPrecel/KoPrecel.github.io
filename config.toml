@@ -33,3 +33,12 @@ identifier = "github"
 name = "Min's GitHub"
 url = "https://github.com/KoPrecel"
 weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
