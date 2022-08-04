@@ -6,16 +6,28 @@ paginate = 5000 # frontpage pagination
 copyright = "Copyright 2022 © Min Dye. All rights reserved."
 enableEmoji = true # https://www.webfx.com/tools/emoji-cheat-sheet/
 googleAnalytics = "G-SCM5JE3TQ5"
+enableGitInfo = true
 
 [params]
     env = "production"
     SEOTitle = "Min Dye Blog"
     keyword = "Min, Dye, Software, Python"
     sidebar_about_description = "test sidebar description"
+    showShareButtons = true
+    showReadingTime = true
+    showBreadCrumbs = true
+    showCodeCopyButtons = true
+    hideSummary = true
+    
+
+[params.editPost]
+    URL = "https://github.com/KoPrecel/KoPrecel.github.io/blob/master/content"
+    text = "Suggest Edits to this Post"
+    appendFilePath = true
 
 [params.homeInfoParams]
-Title = "Welcome to the Den!"
-Content = "Hi, my name is Min :) This blog is an archive of things I learned along my programming journey, as well as things that make me grow as a person. Created in August of 2022, I am hoping to use this blog to enhance my studying as well as to organize a portfolio. In any case, I hope you enjoy your time here and learn things with me!"
+title = "Welcome to the Den!"
+content = "Hi, my name is Min :) This blog is an archive of things I learned along my programming journey, as well as things that make me grow as a person. Created in August of 2022, I am hoping to use this blog to enhance my studying as well as to organize a portfolio. In any case, I hope you enjoy your time here and learn things with me!"
 
 [[params.socialIcons]]
 name = "GitHub"
