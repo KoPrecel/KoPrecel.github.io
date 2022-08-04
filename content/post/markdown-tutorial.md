@@ -14,8 +14,6 @@ I created this blog to start journaling my programming experiences and keep a re
 
 This guide is specific to Hugo and Goldmark Markdown processor, so you might find some inaccuracies if you're not using these technologies.
 
-I learned Markdown and created this post by reading [Hugo Markdown Reference](https://www.markdownguide.org/tools/hugo/) and I encourage you to check it out as well!
-
 ---
 
 # Headings
@@ -237,3 +235,7 @@ You can insert an image by using a similar syntax to [link](#link), but with an 
 
 **Rendition:**
 ![Say hi to my feline son, Babo :)](/images/babo.png)
+
+# Learning Sources
+
+[Hugo Markdown Reference](https://www.markdownguide.org/tools/hugo/)
