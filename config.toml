@@ -13,6 +13,14 @@ googleAnalytics = "G-SCM5JE3TQ5"
     keyword = "Min, Dye, Software, Python"
     sidebar_about_description = "test sidebar description"
 
+[params.homeInfoParams]
+Title = "Welcome to the Den!"
+Content = "Hi, my name is Min :) This blog is an archive of things I learned along my programming journey, as well as things that make me grow as a person. Created in August of 2022, I am hoping to use this blog to enhance my studying as well as to organize a portfolio. In any case, I hope you enjoy your time here and learn things with me!"
+
+[[params.socialIcons]]
+name = "GitHub"
+link = "https://github.com/KoPrecel"
+
 [markup.goldmark.renderer]
     unsafe = true
 
@@ -29,16 +37,10 @@ url = "/tags/"
 weight = 20
 
 [[menu.main]]
-identifier = "github"
-name = "Min's GitHub"
-url = "https://github.com/KoPrecel"
-weight = 30
-
-[[menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 40
+weight = 30
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
