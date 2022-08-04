@@ -3,8 +3,9 @@ title: "Learning How To Make Hugo Posts with Markdown"
 date: 2022-07-13T18:06:02-04:00
 draft: false
 image: ""
-tags: [hugo, markdown]
-categories: [learning]
+tags: [Hugo, Markdown]
+categories: [How to Hugo]
+showtoc: true
 ---
 
 # Introduction
