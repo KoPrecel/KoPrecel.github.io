@@ -55,6 +55,13 @@ You can italicize a text by wrapping it with either * or _ around the text. Here
 
 Some Markdown applications don't handle underscores the same way, so it is the best to use asterisks for bold and italic.
 
+## Strikethrough
+
+You can strikethrough a text by wrapping it with \~\~ around the text. Here is an example:
+| Markdown                                 | Output                               |
+| ---------------------------------------- | ------------------------------------ |
+| I can't believe it's not \~\~butter\~\~! | I can't believe it's not ~~butter~~! |
+
 ## Code
 
 You can denote a text as code by wrapping it with \` around the text. If the text contains \` within, you can use `` instead to denote the text as code. Here is an example:
@@ -177,7 +184,7 @@ You can also denote which language you are using next to the ``` to highlight th
 **Markdown:**
 ~~~markdown
 ```py
-if money >= tuition:
+if bank_balance >= tuition:
     student.attend = true
 else:
     student.attend = false
@@ -193,3 +200,39 @@ else:
     student.attend = false
     student.work()
 ```
+
+---
+
+# Table
+
+You can use pipes (|) and three or more hyphens (---) in a tabular shape to create a table.
+
+You can align the text in each column by adding a colon (:) to left, right, or on both sides of the header hyphens.
+
+**Markdown:**
+```markdown
+| Normal | Left Align | Center Align | Right Align |
+| ------ | :--------- | :----------: | ----------: |
+| one    | two        | three        | four        |
+| five   | six        | seven        | eight       |
+```
+
+**Rendition:**
+| Normal | Left Align | Center Align | Right Align |
+| ------ | :--------- | :----------: | ----------: |
+| one    | two        | three        | four        |
+| five   | six        | seven        | eight       |
+
+You can also [stylize text](#stylizing-text) within table!
+
+# Images
+
+You can insert an image by using a similar syntax to [link](#link), but with an exclamation mark at the very front. To be more explicit, you can insert an image by starting with an exclamation point, then wrapping the alternative text in square brackets, followed by the link to image wrapped in parentheses.
+
+**Markdown:**
+```markdown
+![Say hi to my feline son, Babo :)](/images/babo.png)
+```
+
+**Rendition:**
+![Say hi to my feline son, Babo :)](/images/babo.png)
